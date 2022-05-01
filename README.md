@@ -9,7 +9,7 @@ FYI, this project is a 'search and replace' copy from Github to Bitbucket - Than
 
 # Getting started
 
-This container contains a script, `backup.py`, for backing up Bitbucket repositories.
+This container contains a script, `bitbucket-backup.py`, for backing up Bitbucket repositories.
 
 The script requires a Bitbucket App Password and a destination directory. It then uses the token to populate the destination directory with clones of all the repositories the token can access.
 

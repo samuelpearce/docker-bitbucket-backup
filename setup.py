@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='github-backup',
+    name='bitbucket-backup',
     version='1.0.0',
     description='',
-    url='https://github.com/lnxd/docker-github-backup',
-    author='lnxd',
+    url='https://github.com/samuelpearce/docker-bitbucket-backup',
+    author='Samuel Pearce',
     install_requires=['requests'],
     scripts=['github-backup.py'],
     zip_safe=True

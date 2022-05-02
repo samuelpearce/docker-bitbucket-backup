@@ -7,6 +7,6 @@ setup(
     url='https://github.com/samuelpearce/docker-bitbucket-backup',
     author='Samuel Pearce',
     install_requires=['requests'],
-    scripts=['github-backup.py'],
+    scripts=['bitbucket-backup.py'],
     zip_safe=True
 )

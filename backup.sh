@@ -8,7 +8,7 @@ echo ""
 
 # If config doesn't exist yet, create it
 if [ ! -f /home/docker/bitbucket-backup/config/config.json ]; then
-    cp /home/docker/bitbucket-backup/config.json.example /home/docker/github-backup/config/config.json
+    cp /home/docker/bitbucket-backup/config.json.example /home/docker/bitbucket-backup/config/config.json
 fi
 
 # Update config.json
